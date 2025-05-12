@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IXXI TECNOLOGIA EN SEGURIDAD</title>
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .hero-pattern {
+            background-color: #0093E9;
+            background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        }
+        .scroll-smooth {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="font-sans scroll-smooth bg-gray-50">
+    <!-- Navegación -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center">
+                <span class="text-2xl font-bold text-blue-600">IXXI</span>
+                <span class="ml-2 text-lg text-gray-700">TECNOLOGÍA</span>
+            </div>
+            
+            <!-- Menú de navegación para desktop -->
+            <div class="hidden md:flex space-x-8">
+                <a href="#inicio" class="text-gray-800 hover:text-blue-600 transition duration-300">Inicio</a>
+                <a href="#quienes-somos" class="text-gray-800 hover:text-blue-600 transition duration-300">Quiénes Somos</a>
+                <a href="#soluciones" class="text-gray-800 hover:text-blue-600 transition duration-300">Soluciones</a>
+                <a href="#productos" class="text-gray-800 hover:text-blue-600 transition duration-300">Productos</a>
+                <a href="#contacto" class="text-gray-800 hover:text-blue-600 transition duration-300">Contacto</a>
+            </div>
+            
+            <!-- Botón de menú móvil -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        
+        <!-- Menú móvil -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 shadow-inner">
+            <a href="#inicio" class="block px-4 py-2 text-gray-800 hover:bg-blue-100">Inicio</a>
+            <a href="#quienes-somos" class="block px-4 py-2 text-gray-800 hover:bg-blue-100">Quiénes Somos</a>
+            <a href="#soluciones" class="block px-4 py-2 text-gray-800 hover:bg-blue-100">Soluciones</a>
+            <a href="#productos" class="block px-4 py-2 text-gray-800 hover:bg-blue-100">Productos</a>
+            <a href="#contacto" class="block px-4 py-2 text-gray-800 hover:bg-blue-100">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero-pattern min-h-screen flex items-center justify-center text-white pt-16">
+        <div class="container mx-auto px-4 py-16">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">IXXI TECNOLOGÍA EN SEGURIDAD</h1>
+                    <p class="text-lg md:text-xl mb-8">Soluciones avanzadas en seguridad e inteligencia artificial</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#contacto" class="bg-white text-blue-600 py-3 px-8 rounded-full font-semibold transition duration-300 hover:bg-gray-100 hover:shadow-lg text-center">Contáctanos</a>
+                        <a href="#soluciones" class="border-2 border-white text-white py-3 px-8 rounded-full font-semibold transition duration-300 hover:bg-white hover:text-blue-600 text-center">Descubrir Soluciones</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-10 md:mt-0" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="rounded-lg bg-white p-4 shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Seguridad Tecnológica" class="rounded w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Quiénes Somos -->
+    <section id="quienes-somos" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800" data-aos="fade-up">Quiénes Somos</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0" data-aos="fade-right" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Equipo IXXI" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2 md:pl-10" data-aos="fade-left" data-aos-delay="400">
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        IXXI TECNOLOGÍA EN SEGURIDAD se funda en el año 2014 con el deseo de sus socios especializados en conformar una estructura que permita contar con Tecnología de Punta, en las áreas de Seguridad e Inteligencia Artificial, con la integración de aplicaciones desarrolladas con administración automática del conocimiento.
+                    </p>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Estos desarrollos han logrado posicionar al día de hoy a IXXI TECNOLOGÍA EN SEGURIDAD como empresa líder en servicios de Tecnología de la Información en México.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        IXXI TECNOLOGÍA EN SEGURIDAD está comprometido a asegurar que sus clientes tengan la última tecnología disponible para el apoyo en aplicaciones de misión crítica que acompañen los cambios del negocio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Soluciones -->
+    <section id="soluciones" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800" data-aos="fade-up">Nuestras Soluciones</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Seguridad Inteligente</h3>
+                    <p class="text-gray-600">Sistemas avanzados de vigilancia y control de acceso con inteligencia artificial integrada para identificación de riesgos en tiempo real.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Inteligencia Artificial</h3>
+                    <p class="text-gray-600">Soluciones basadas en algoritmos avanzados para automatizar procesos, análisis predictivo y toma de decisiones en seguridad.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Infraestructura Cloud</h3>
+                    <p class="text-gray-600">Servicios en la nube para almacenamiento seguro, procesamiento de datos y acceso remoto a sistemas críticos de seguridad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800" data-aos="fade-up">Nuestros Productos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="flex flex-col md:flex-row bg-gray-50 rounded-lg overflow-hidden shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="md:w-2/5">
+                        <img src="https://images.unsplash.com/photo-1585123334904-845d60e97b29?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Sistema de Vigilancia" class="w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-3/5 p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">IXXI Guard</h3>
+                        <p class="text-gray-600 mb-4">Sistema integral de vigilancia con análisis de comportamiento en tiempo real y alertas inteligentes.</p>
+                        <a href="#contacto" class="text-blue-600 font-semibold hover:underline">Más información →</a>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row bg-gray-50 rounded-lg overflow-hidden shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="md:w-2/5">
+                        <img src="https://images.unsplash.com/photo-1633265486501-0cf354eb1d1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Control de Acceso" class="w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-3/5 p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">IXXI Access</h3>
+                        <p class="text-gray-600 mb-4">Control de acceso biométrico con reconocimiento facial y detección de anomalías mediante IA.</p>
+                        <a href="#contacto" class="text-blue-600 font-semibold hover:underline">Más información →</a>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row bg-gray-50 rounded-lg overflow-hidden shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <div class="md:w-2/5">
+                        <img src="https://images.unsplash.com/photo-1563155353-44c9f5595c3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Analítica de Datos" class="w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-3/5 p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">IXXI Analytics</h3>
+                        <p class="text-gray-600 mb-4">Plataforma de análisis de datos para identificación de patrones de riesgos y prevención de amenazas.</p>
+                        <a href="#contacto" class="text-blue-600 font-semibold hover:underline">Más información →</a>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row bg-gray-50 rounded-lg overflow-hidden shadow-md" data-aos="fade-up" data-aos-delay="400">
+                    <div class="md:w-2/5">
+                        <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Software Integrado" class="w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-3/5 p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">IXXI Suite</h3>
+                        <p class="text-gray-600 mb-4">Sistema integral que unifica todas las soluciones de seguridad en una plataforma fácil de usar.</p>
+                        <a href="#contacto" class="text-blue-600 font-semibold hover:underline">Más información →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800" data-aos="fade-up">Contáctanos</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0" data-aos="fade-right" data-aos-delay="200">
+                    <form class="bg-white p-8 rounded-lg shadow-md">
+                        <div class="mb-4">
+                            <label for="nombre" class="block text-gray-700 font-medium mb-2">Nombre</label>
+                            <input type="text" id="nombre" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="telefono" class="block text-gray-700 font-medium mb-2">Teléfono</label>
+                            <input type="tel" id="telefono" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="mensaje" class="block text-gray-700 font-medium mb-2">Mensaje</label>
+                            <textarea id="mensaje" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="md:w-1/2 md:pl-8" data-aos="fade-left" data-aos-delay="400">
+                    <div class="bg-white p-8 rounded-lg shadow-md h-full">
+                        <h3 class="text-xl font-semibold mb-6 text-blue-600">Información de Contacto</h3>
+                        <div class="mb-6 flex">
+                            <div class="text-blue-600 mr-4 text-xl">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Dirección</h4>
+                                <p class="text-gray-600">Av. Tecnológica #123, Col. Innovación, Ciudad de México, México</p>
+                            </div>
+                        </div>
+                        <div class="mb-6 flex">
+                            <div class="text-blue-600 mr-4 text-xl">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Teléfono</h4>
+                                <p class="text-gray-600">+52 (55) 1234-5678</p>
+                            </div>
+                        </div>
+                        <div class="mb-6 flex">
+                            <div class="text-blue-600 mr-4 text-xl">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Email</h4>
+                                <p class="text-gray-600">contacto@ixxitecnologia.com</p>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h4 class="font-semibold mb-4">Síguenos</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="text-gray-600 hover:text-blue-600 text-2xl"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="text-gray-600 hover:text-blue-600 text-2xl"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-gray-600 hover:text-blue-600 text-2xl"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-gray-600 hover:text-blue-600 text-2xl"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center">
+                        <span class="text-2xl font-bold text-blue-400">IXXI</span>
+                        <span class="ml-2 text-lg">TECNOLOGÍA</span>
+                    </div>
+                    <p class="mt-2 text-gray-400 max-w-md">
+                        Líderes en servicios de Tecnología de la Información en México, especialistas en seguridad e inteligencia artificial.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#inicio" class="text-gray-400 hover:text-white transition duration-300">Inicio</a></li>
+                            <li><a href="#quienes-somos" class="text-gray-400 hover:text-white transition duration-300">Quiénes Somos</a></li>
+                            <li><a href="#soluciones" class="text-gray-400 hover:text-white transition duration-300">Soluciones</a></li>
+                            <li><a href="#productos" class="text-gray-400 hover:text-white transition duration-300">Productos</a></li>
+                            <li><a href="#contacto" class="text-gray-400 hover:text-white transition duration-300">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold mb-4">Servicios</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Ciberseguridad</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">IA Aplicada</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cloud Computing</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Consultoría</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-span-2 md:col-span-1">
+                        <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
+                        <p class="text-gray-400 mb-4">Suscríbete para recibir noticias y actualizaciones.</p>
+                        <form>
+                            <div class="flex">
+                                <input type="email" placeholder="Tu email" class="px-4 py-2 w-full rounded-l-lg focus:outline-none text-gray-900">
+                                <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-lg transition duration-300">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400">© 2023 IXXI TECNOLOGÍA EN SEGURIDAD. Todos los derechos reservados.</p>
+                <div class="mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white mx-2">Términos y Condiciones</a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón WhatsApp Flotante -->
+    <a href="https://wa.me/5212345678" class="fixed bottom-6 right-6 bg-green-500 rounded-full p-3 text-white shadow-lg hover:bg-green-600 transition duration-300 z-50 flex items-center justify-center w-16 h-16" data-aos="fade-up" data-aos-offset="0">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Inicializar AOS (Animate On Scroll)
+        AOS.init({
+            once: true
+        });
+
+        // Toggle menu móvil
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Cerrar menú móvil al hacer clic en un enlace
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
